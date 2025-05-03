@@ -1,0 +1,19 @@
+[SoilMoistureMapping_config]
+############################################ Paths for graph 1: raw input and output processed image
+root = /home/cln3/SAR/
+
+graph_path = /home/cln3/SAR/SNAP_graphs/SLC_preprocess.xml
+
+graph_path_1 = /home/cln3/SAR/SNAP_graphs/GRD_pre_pro_1.xml
+
+graph_path_4 = /home/cln3/SAR/SNAP_graphs/GRD_pre_pro_4.xml
+
+SNAP_version_1= /home/cln3/esa-snap/bin/gpt 
+
+shapefile_path = /home/cln3/QGIS/Boundaries/Chikwawa_pro.shp
+
+############################################# Paths for graph 2: Co-registration
+
+graph_path_2 =  /home/cln3/SAR/SNAP_graphs/Graph2_Coregister.xml
+
+SNAP_version_2 = /home/cln3/esa-snap/bin/gpt
