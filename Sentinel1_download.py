@@ -71,7 +71,7 @@ metadata = results.geojson()
 
 #==================================================
 # Authenticate session
-session = asf.ASFSession().auth_with_creds('nkolokosa72', 'hTT37&t?:zHAtsJ')
+session = asf.ASFSession().auth_with_creds('USERNAME', 'PASSWORD')
 
 #=================================================
 # Download images with progress tracking
